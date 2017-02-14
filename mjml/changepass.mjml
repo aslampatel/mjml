@@ -1,0 +1,76 @@
+<mjml>
+ <mj-head>
+     <mj-style>
+       .text_cls1 {
+            font-size:17px;
+            color: #555;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            text-align: left;
+       }
+
+       .text_cls2 {
+              font-size:14px;
+              color: #555;
+              font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+              text-align: left;
+       }
+
+       .text_cls3{
+           font-size: 14px;
+           line-height: 16px;
+       }
+
+     </mj-style>
+	<mj-title>Password Reset</mj-title>
+     <mj-attributes>
+       <mj-class name="link_cls" color="white" />
+       <mj-class name="big" font-size="20px" />
+       <mj-all font-family="Arial" />
+     </mj-attributes>
+   </mj-head>
+  <mj-body>
+    <mj-container background-color="#f4f5f7" >
+      <mj-include path="./header" />
+
+     <mj-section background-color="#fff" padding="0" >
+
+      <mj-column  width="100%">  
+      <mj-image src="images/iNurseries.jpg" width="145">
+      </mj-column>
+        <mj-column  width="100%">
+
+          <mj-text  font-weight="bold" align="justify" font-size="24px" color="#555" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">Hello!</mj-text>
+          <mj-text  padding="0 25 0 25"  >
+          <p class="text_cls1"> We have received a request to change your password for your iNurseries account.
+          </p>
+          </mj-text>
+          <mj-text padding="0 25 0 25">
+          <p class="text_cls2">
+          If you did not make this request, just ignore this email. Otherwise, please click the button below to reset your password:
+          </p>
+          </mj-text>
+           <mj-button font-family="Helvetica" href="forgot.html" background-color="#179bd7" color="white" font-size="15px">
+            Change Password
+          </mj-button>
+          <mj-spacer height="10px" />
+          <mj-text align="justify" font-size="15px" color="#555" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" padding="0 25 0 25">
+          
+          You can also copy and paste this URL into your web browser address bar:
+         
+          <a style="color:#179BD7;text-decoration: underline;" href="http://www.google.co.uk">http://www.google.co.uk</a>
+          </mj-text>
+          <mj-spacer height="20px" />
+           <mj-text align="justify" font-size="15px" font-style="italic" color="#555" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" padding="0 25">Thanks,</mj-text>
+           <mj-text align="justify" font-size="15px" font-style="italic" color="#555" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" padding="0 25">The iNurseries Team</mj-text>
+
+           	<mj-spacer height="10px" />
+			<mj-divider border-width="3px" border-style="solid" border-color="#d6d7d8" padding="0" />
+        </mj-column>
+      </mj-section>
+
+      <mj-include path="./footer" />
+
+    </mj-container>
+    
+  </mj-body>
+</mjml>     

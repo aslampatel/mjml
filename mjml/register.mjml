@@ -1,0 +1,196 @@
+<mjml>
+ <mj-head>
+  <mj-style>
+  .text_cls1 {
+  font-size:18px;
+  color: #555;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: left;
+  margin-bottom:5px;
+  }
+
+  .text_cls2 {
+  font-size:16px;
+  color: #555555;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: left;
+  margin-bottom:5px;
+  }
+
+.heading_text
+{
+  font-size:14px;
+  color: #555;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-weight: 600;
+}
+  .text_cls3{
+  font-size: 14px;
+  line-height: 16px;
+  color: #555555;
+  margin-bottom:5px;
+  }
+  .fontsize_class{
+  font-size: 20px; line-height: 27px;
+  color: #555555;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  
+  }
+.text_center {
+  font-size:16px;
+  color: #555555;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align:-webkit-left;
+  margin-bottom:-7px;
+  }
+  .greenbackgroudtext
+  {
+   font-size:16px;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align:-webkit-left;
+  }
+  .img_below{
+   font-size:14px;
+  color: #555555;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align:-webkit-left;
+
+  }
+  </mj-style>
+ <mj-title>Register Email</mj-title>
+  <mj-attributes>
+  <mj-class name="link_cls" color="white" />
+  <mj-class name="big" font-size="20px" />
+  <mj-all font-family="Arial" />
+  </mj-attributes>
+ </mj-head>
+  <mj-body>
+    <mj-container background-color="#f4f5f7" >
+    <mj-include path="./header" />
+
+      <mj-section background-color="#fff" padding="0" >
+        <mj-column  width="100%">  
+          <mj-image src="images/iNurseries.jpg" width="145">
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-url="images/introducing-iNurseries-background.jpg"  background-repeat="no-repeat">
+        <mj-column width="100%">
+          <mj-image src="images/process-nurseries.png" width="450">
+        </mj-column>
+        <mj-column width="100%">
+          <mj-text padding="0 25 0 25">
+          <p class="fontsize_class"><strong>
+           ARE YOU LOOKING FOR AN INNOVATIVE WAY TO GROW YOUR NURSERY AND MAXIMISE REVENUE BY UTILISING YOUR AVAILABLE SPACES?</strong>
+          </p>
+          </mj-text>
+          <mj-button font-family="Helvetica" href="Register.html" background-color="#179bd7" color="white" font-size="16px">
+            Register Today
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff" padding="0" >
+
+        <mj-column  width="100%">
+        
+          <mj-text padding="0 25 0 25">
+          <p class="text_cls2">
+         If you are, this is where we come in! We are iNurseries, a new platform which connects you to parents all over the UK and enables you to sell your available spaces online at your convenience.
+          </p>
+          </mj-text>
+          <mj-text padding="0 25 0 25">
+          <p class="text_cls2">
+          We are now open for business, so <a href="https://www.inurseries.co.uk/authentication/nursery/register" style="color:#179BD7;text-decoration: underline;">sign up today</a> and get a head start on the competition!
+          </p>
+          </mj-text>
+          <mj-text padding="0 25 0 25">
+          <p class="text_cls2">
+         Once you have signed up, you can start setting up your nursery's profile, room availability and rates.
+          </p>
+          </mj-text>
+            <mj-spacer height="10px" />
+          <mj-text>
+              <p style="margin: 0;font-size: 28px;line-height: 34px;text-align: center"><a style="color:#179BD7;text-decoration: none;" href="https://www.inurseries.co.uk/authentication/nursery/register" target="_blank" rel="noopener noreferrer"><span style="font-size: 28px; line-height: 33px;"><strong><span style="color: rgb(91, 185, 91);font-size: 28px;line-height: 33px;">-</span>&nbsp;<span style="color: rgb(23, 155, 215); font-size: 28px; line-height: 33px;">BENEFITS OF SIGNING UP</span> <span style="color: rgb(91, 185, 91); font-size: 28px; line-height: 33px;">-</span></strong></span></a></p>
+          </mj-text>
+          <mj-image src="images/282x190x1.jpg" width="189">
+        </mj-column>
+
+        <mj-column width="100%">
+            <mj-text padding="0 25 0 100">
+          <p class="text_center">We do not charge <strong>any contract or membership fees</strong></p>
+          <p class="text_center"> You can set your own room rates to ensure you are making a profit.</p>
+          <p class="text_center">You will also have access to a support team that is ready to answer your questions.</p>
+        </mj-text>
+
+          <mj-image src="images/282x190x2.jpg" width="189">
+        </mj-column>
+        <mj-column width="100%">
+          <mj-text padding="0 25 0 100">
+          <p class="text_center">The process of using iNurseries is<strong>easy and user-friendly.</strong>Our website is accessible to all registered nurseries in the UK and works across all devices.</p>
+        </mj-text>
+         <mj-spacer height="30px" />
+        </mj-column>
+        <mj-column background-color="#5bb95b" width="100%">
+            <mj-text padding="0 25 0 25">
+          <p class="greenbackgroudtext">So don't wait any longer!<strong>&nbsp;<a style="color:#FFFFFF;text-decoration: underline;" title="Sign up with iNurseries today" href="https://www.inurseries.co.uk/authentication/nursery/register" target="_blank" rel="noopener noreferrer">Sign up with iNurseries today</a>&nbsp;</strong> and make your nursery services more accessible to customers. Let us help grow your business and maximise revenue with this fresh and modern way of linking your nursery to customers.</p>
+        </mj-text>
+        </mj-column>
+
+        <mj-column width="75%">
+         <mj-spacer height="10px" />
+            <mj-divider border-width="2px" border-style="solid" border-color="#bbb" />
+            <mj-spacer height="10px" />
+        </mj-column>
+
+        <mj-column width="100%" background-color="#AAECFA">
+            <mj-text>
+              <p class="heading_text">
+            COME VISIT US AT THE FOLLOWING EXHIBITIONS IN FEBRUARY & MARCH
+          </p>
+            </mj-text>
+        </mj-column>
+
+         <mj-column width="100%" background-color="#AAECFA">
+            <mj-image src="images/nursery-world-small.jpg" width="300">
+        </mj-column>
+         </mj-section>
+
+         <mj-section background-color="#AAECFA" padding="0">
+         <mj-column width="350">
+          <mj-text padding="0 25 0 25">
+          <p class="img_below">Visit us at <strong>Stand 124</strong> at the Nursery World Show in London on 3rd & 4th February.</p>
+        </mj-text>
+        <mj-spacer height="2px" />
+        </mj-column>
+         
+          <mj-column width="100%" background-color="#AAECFA">
+              <mj-image src="images/childcare-expo-small.jpg" width="300">
+          </mj-column>
+           <mj-column width="350">
+          <mj-text padding="0 25 0 25">
+          <p class="img_below">Missed us once? Don't worry, we'll be at <strong>Stand C20 </strong> at childcare expo 2017 in London on 3rd & 4th of March.</p>
+        </mj-text>
+        </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#fff" padding="0">
+        <mj-column width="100%">
+          <mj-spacer height="20px" />
+           <mj-text align="justify" font-size="15px" font-style="italic" color="#555" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" padding="0 25">Thanks,</mj-text>
+           <mj-text align="justify" font-size="15px" font-style="italic" color="#555" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" padding="0 25">The iNurseries Team</mj-text>
+
+            <mj-spacer height="10px" />
+            <mj-divider border-width="3px" border-style="solid" border-color="#d6d7d8" padding="0" />
+        </mj-column>
+      </mj-section>
+
+    <mj-include path="./footer" />
+
+    </mj-container>
+
+  </mj-body>
+</mjml>     

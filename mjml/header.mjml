@@ -1,0 +1,11 @@
+<mj-section padding="0">
+        <mj-column width="100%">
+          <mj-text align="center" font-style="italic">
+              To ensure delivery, add <a href="#" style="color:#179BD7;text-decoration: none;">info@inurseries.co.uk</a> to your address book
+          </mj-text>
+          <mj-spacer height="20px" />
+        </mj-column>
+        <mj-column width="100%">
+              <mj-image src="images/topbar.png" padding="0" >
+        </mj-column>
+      </mj-section>

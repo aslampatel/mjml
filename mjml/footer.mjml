@@ -1,0 +1,24 @@
+<mj-section>
+         <mj-column width="100%">
+          <mj-text padding="0" align="center" color="#bbb" font-size="11">
+              TM + © 2017 iNurseries Ltd.
+          </mj-text>
+          <mj-text padding="0" align="center" color="#bbb" font-size="11">
+             86 - 90 Paul St. London EC2A 4NE
+          </mj-text>
+        </mj-column>
+        
+        <mj-column width="50px">
+            <mj-image src="images/facebook@2x.png"   href="https://www.facebook.com/inurseries" padding="0 5 0 5"   width="32px"/>
+        </mj-column>
+        <mj-column width="50px">
+            <mj-image src="images/twitter@2x.png"   href="https://twitter.com/iNurseriesLtd"  padding="0 5 0 5" width="32px"/>
+        </mj-column>
+        <mj-column width="50px">
+            <mj-image src="images/googleplus@2x.png" href="https://plus.google.com/iNurseries" padding="0 5 0 5" width="32px"/>
+        </mj-column>
+        <mj-column width="50px">
+             <mj-image src="images/website@2x.png"  href="https://www.inurseries.co.uk/"   padding="0 5 0 5" width="32px"/>
+        </mj-column>
+      
+        </mj-section>
